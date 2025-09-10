@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preparação Física - Escolinha Canarinho</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Escolinha Canarinho</a>
+  </div>
+</nav>
+
+<div class="container py-5">
+  <h2 class="mb-4">Preparação Física</h2>
+  <p>Treinamento especializado para melhorar resistência, força, velocidade e flexibilidade, voltado para jovens atletas que buscam evolução no futebol.</p>
+  <ul>
+    <li><b>Preço:</b> R$ 250,00/mês</li>
+    <li><b>Tempo:</b> 1h por treino</li>
+    <li><b>Dias:</b> Segunda, Quarta e Sexta</li>
+    <li><b>Horários:</b> 17h às 18h</li>
+  </ul>
+
+  <div class="row mb-4">
+    <div class="col-md-6"><img src="assets/servico2.jpg" class="img-fluid rounded"></div>
+    <div class="col-md-6"><img src="assets/campo2.jpg" class="img-fluid rounded"></div>
+  </div>
+
+  <div class="mb-4">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1uqd3yYd4TE" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#orcamentoModal">
+    Solicitar Orçamento
+  </button>
+</div>
+
+<div class="modal fade" id="orcamentoModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Solicitar Orçamento - Preparação Física</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3"><label class="form-label">Nome</label><input type="text" class="form-control"></div>
+          <div class="mb-3"><label class="form-label">E-mail</label><input type="email" class="form-control"></div>
+          <div class="mb-3"><label class="form-label">Telefone</label><input type="tel" class="form-control"></div>
+          <div class="mb-3"><label class="form-label">Endereço</label><input type="text" class="form-control"></div>
+          <div class="mb-3"><label class="form-label">Cidade</label><input type="text" class="form-control"></div>
+          <div class="mb-3"><label class="form-label">UF</label><input type="text" class="form-control"></div>
+          <div class="mb-3"><label class="form-label">Data desejada</label><input type="date" class="form-control"></div>
+          <div class="mb-3"><label class="form-label">Observações</label><textarea class="form-control"></textarea></div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
